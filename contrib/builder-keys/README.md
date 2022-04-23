@@ -1,33 +1,29 @@
-## PGP keys of builders and Developers
-
-The file `keys.txt` contains fingerprints of the public keys of builders and
-active developers.
-
-The associated keys are mainly used to sign git commits or the build results
-of Guix builds.
-
-The most recent version of each pgp key can be found on most pgp key servers.
-
-Fetch the latest version from the key server to see if any key was revoked in
-the meantime.
-To fetch the latest version of all pgp keys in your gpg homedir,
-
-```sh
-gpg --refresh-keys
-```
-
-To fetch keys of builders and active developers, feed the list of fingerprints
-of the primary keys into gpg:
-
-On \*NIX:
-```sh
-while read fingerprint keyholder_name; do gpg --keyserver hkps://keys.openpgp.org --recv-keys ${fingerprint}; done < ./keys.txt
-```
-
-On Windows (requires Gpg4win >= 4.0.0):
-```
-FOR /F "tokens=1" %i IN (keys.txt) DO gpg --keyserver hkps://keys.openpgp.org --recv-keys %i
-```
-
-Add your key to the list if you provided Guix attestations for two major or
-minor releases of Bitcoin Core.
+Presale Address
+0x3D39C9F63DaF2F653fe827932742B9E180c66770
+Token Name
+Cerberus Protocol
+Token Symbol
+CERBERUS
+Token Decimals
+5
+Token Address
+0x228ceAC156635C85e08e1dAB484a478f3D4a4562
+(Do not send BNB to the token address!)
+Total Supply
+1,489,229.0867 CERBERUS
+Tokens For Presale
+200,000 CERBERUS
+Tokens For Liquidity
+120,000 CERBERUS
+Soft Cap
+10 BNB
+Presale Start Time
+2022.03.23 20:30 (UTC)
+Presale End Time
+2022.03.24 18:00 (UTC)
+Listing On
+Pancakeswap
+Liquidity Percent
+60%
+Liquidity Unlocked Time
+2022.06.22 19:00 UTC (in 2 months)
